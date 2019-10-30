@@ -20,7 +20,7 @@ code {
 }
 
 form input[type=text] {
-  width: 50%;
+  width: 500px;
   border: thin solid lightgray;
   padding: 12px;
   border-radius: 5px;
