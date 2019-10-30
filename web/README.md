@@ -18,23 +18,19 @@ You will also see any lint errors in the console.
 Launches the test runner in the interactive watch mode.<br />
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
+#### Test Results
 
 File              |  % Stmts | % Branch |  % Funcs |  % Lines | Uncovered Line #s |
 ------------------|----------|----------|----------|----------|-------------------|
-All files         |    68.29 |    35.71 |    66.67 |     67.5 |                   |
- src              |    36.84 |        0 |    28.57 |    36.84 |                   |
-  App.js          |    43.75 |        0 |    28.57 |    43.75 |... 51,52,53,54,56 |
+All files         |    65.96 |     37.5 |    68.42 |    65.22 |                   |
+ src              |     37.5 |       10 |    28.57 |     37.5 |                   |
+  App.js          |    42.86 |     12.5 |    28.57 |    42.86 |... 62,63,64,65,67 |
   index.js        |        0 |        0 |      100 |        0 |             6,8,9 |
- src/components   |    95.45 |    83.33 |    90.91 |    95.24 |                   |
+ src/components   |    95.65 |    83.33 |    91.67 |    95.45 |                   |
+  Loading.js      |      100 |      100 |      100 |      100 |                   |
   SearchBar.js    |     87.5 |      100 |       75 |     87.5 |                17 |
   SearchResult.js |      100 |      100 |      100 |      100 |                   |
   SortBy.js       |      100 |       75 |      100 |      100 |                25 |
-
-Test Suites: 4 passed, 4 total
-Tests:       8 passed, 8 total
-Snapshots:   4 passed, 4 total
-Time:        2.301s
-Ran all test suites.
 
 ### `npm run build`
 
