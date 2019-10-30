@@ -1,0 +1,69 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App renders correctly 1`] = `
+<div>
+  <div
+    className="center-flex"
+  >
+    <img
+      alt="Github repositories"
+      src="github_repositories.png"
+    />
+  </div>
+  <form
+    onSubmit={[Function]}
+  >
+    <div
+      className="center-flex"
+    >
+      <input
+        onChange={[Function]}
+        placeholder="Search..."
+        type="text"
+        value=""
+      />
+    </div>
+    <div
+      className="center-flex"
+    >
+      <input
+        type="submit"
+        value="Search"
+      />
+    </div>
+  </form>
+  <div
+    className="center-flex"
+  >
+    <form>
+      <label>
+        <input
+          checked={true}
+          name="sortOptions"
+          onChange={[Function]}
+          type="radio"
+          value="score"
+        />
+        Relevance
+      </label>
+      <label>
+        <input
+          checked={false}
+          name="sortOptions"
+          onChange={[Function]}
+          type="radio"
+          value="stars"
+        />
+        Stars
+      </label>
+    </form>
+  </div>
+  <div
+    className="center-flex"
+  >
+    <ul
+      className="search-results-list"
+    />
+  </div>
+</div>
+`;

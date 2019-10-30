@@ -1,0 +1,14 @@
+ul.search-results-list {
+    list-style-type: none;
+    width: 650px;
+}
+
+.search-result {
+    padding: 12px;
+    border-bottom: thin solid lightgray;
+}
+
+.search-result .stars, .search-result .language {
+    color: gray;
+    font-size: small;
+}

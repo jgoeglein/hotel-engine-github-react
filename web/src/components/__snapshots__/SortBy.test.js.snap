@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SortBy renders without crashing 1`] = `
+<div
+  className="center-flex"
+>
+  <form>
+    <label>
+      <input
+        checked={true}
+        name="sortOptions"
+        onChange={[Function]}
+        type="radio"
+        value="score"
+      />
+      Relevance
+    </label>
+    <label>
+      <input
+        checked={false}
+        name="sortOptions"
+        onChange={[Function]}
+        type="radio"
+        value="stars"
+      />
+      Stars
+    </label>
+  </form>
+</div>
+`;

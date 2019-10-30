@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SearchResult renders without crashing 1`] = `
+<div
+  className="search-result"
+>
+  <h3>
+    <a
+      href="fakeurl"
+    >
+      fake repo name
+    </a>
+     by 
+    login
+  </h3>
+  <div
+    className="description"
+  >
+    fake description
+  </div>
+  <div
+    className="language"
+  >
+    Language: 
+    JS
+  </div>
+  <div
+    className="stars"
+  >
+    100
+     stars
+  </div>
+</div>
+`;

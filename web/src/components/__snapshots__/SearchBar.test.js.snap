@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SearchBar renders without crashing 1`] = `
+<form
+  onSubmit={[Function]}
+>
+  <div
+    className="center-flex"
+  >
+    <input
+      onChange={[Function]}
+      placeholder="Search..."
+      type="text"
+      value=""
+    />
+  </div>
+  <div
+    className="center-flex"
+  >
+    <input
+      type="submit"
+      value="Search"
+    />
+  </div>
+</form>
+`;
